@@ -9,6 +9,10 @@ The goal of the project was to identify the most suitable machine leanring algor
 
 ## Methods & Tools Used
 
+There were two parts to this project. The first part is the exploratory data analysis that gave us insights into which variables have (or don't have) influence on the amount of grain and seed oil being produced in Ukraine in a year. There were three components of the EDA: i) data preprocessing - understanding the data and dealing with the missing/null values in the table(s), ii) identifying outliers - are the numerical variables in the data set (close to being) normally distributed or are they highly skewed? and iii) correlation analysis/heatmap - how correlated are the predictor variables to the dependent variable (production) and to each other? The last component of EDA is how the first part of the project segued into the second part. This is because the correlation heatmap created the ground for Feature Selection because the data is input into the machine learning models. The second part of the project was actually building and testing different machine learning models.  
+
+
+
 ## Results
 
 ## How Is This Project Useful?
