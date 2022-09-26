@@ -16,3 +16,7 @@ There were two parts to this project. The first part is the exploratory data ana
 Lasso Regression was found to be the best performing model out of the six, as it had both the smallest training and testing errors. 
 
 ## How Is This Project Useful?
+
+An immediate use would be to use the lasso regression model as discussed in this paper to predict the production value of each of the four commodities (wheat, barley, corn and sunflower seed oil)for the year 2022 (if the values of predictor variables are known for the year 2022). One can then compare the predicted results with the official USDA figures and the difference/deficit could give us the idea of the impact the invasion by Russia has had on Ukraine’s production of its primary commodities. 
+
+A long-term use would be to expand on the framework of this project. This could mean using a larger dataset (for example using quarterly grain production data instead of yearly data). One could also add more independent variables to the data set such as precipitation, humidity and fertilizers. Then, repeat the process of building and comparing the performances of difference ML models using this new data set. This would give the highest-performing ML model which can then be used as a tool to predict production amount of a commodity for the next/current marketing year. These steps can be generalized to other countries.
